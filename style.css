@@ -102,7 +102,7 @@ img.a,.fill{object-fit:cover}
 .sent{font-size:22px;font-weight:700;text-align:center}
 
 /* first night strip: slow scroll to the left, loops forever */
-.strip{height:calc(274 * var(--v));background:var(--cream);overflow:hidden}
+.strip{height:calc(274 * var(--v));background:#fff;overflow:hidden}
 .track{display:flex;width:max-content;height:100%;animation:slide 120s linear infinite}
 .track img{width:calc(205 * var(--v));height:100%;object-fit:cover;flex:none}
 .track{will-change:transform;backface-visibility:hidden}
@@ -128,14 +128,14 @@ img.a,.fill{object-fit:cover}
 .about .ph{left:calc(50% - 50vw);width:100vw}
 
 /* house churches */
-.lochead{background:var(--cream)}
+.lochead{background:#fff;border-top:1px solid #E6E9EE}
 .hwrap{width:var(--c);margin:0 auto;padding:calc(83 * var(--u)) 0 calc(56 * var(--u))}
 .hq{margin-top:calc(44 * var(--u))}
 .hl{max-width:640px;margin:14px auto 0}
 .steps{list-style:none;margin:calc(40 * var(--u)) auto 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:calc(40 * var(--u));max-width:calc(1150 * var(--u))}
 .steps li{border-top:2px solid #000;padding-top:16px}
 .steps span{display:block;margin-bottom:8px}
-.cards{background:var(--cream);padding-bottom:calc(90 * var(--u))}
+.cards{background:#fff;padding-bottom:calc(90 * var(--u))}
 .row{width:var(--c);margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);gap:calc(22 * var(--u))}
 .card{display:flex;flex-direction:column;align-items:center}
 .map{position:relative;width:100%;aspect-ratio:230/297;overflow:hidden;border-radius:calc(30 * var(--u));background:#e8e6e1}

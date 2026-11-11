@@ -44,7 +44,7 @@ h2.sub{font-size:24px;margin:36px 0 12px}
 .note{margin-top:18px;font-size:16px;color:#444}
 .note a{font-weight:700}
 .pic img{width:100%;aspect-ratio:4/5;object-fit:cover}
-.band{background:var(--cream);padding:clamp(48px,6vw,90px) 0}
+.band{background:#fff;border-top:1px solid var(--line);padding:clamp(48px,6vw,90px) 0}
 .wide{width:100%;aspect-ratio:3/2;object-fit:cover}
 .map1{width:min(100%,640px);aspect-ratio:1;object-fit:cover;margin:0 auto}
 .credit{margin-top:12px;font-size:12px;color:#777;text-align:center}
@@ -281,3 +281,15 @@ p,li,blockquote{text-wrap:pretty}
 @media (max-width:767px){.ticker{height:40px}.run span{font-size:14px}}
 @media (prefers-reduced-motion:reduce){.run{animation:none}}
 .kbl{display:block;margin-top:10px;color:inherit;font-weight:700;text-underline-offset:3px}
+/* Talk to us intake */
+.intake{margin-top:28px}
+.intake .topic{border:0;margin:0 0 20px;padding:0}
+.intake legend{font:800 13px var(--ff);letter-spacing:.12em;margin:0 0 12px;padding:0}
+.intake .topic label{display:block;margin:0 0 8px;cursor:pointer}
+.intake .topic input{position:absolute;opacity:0;width:1px;height:1px}
+.intake .topic span{display:flex;align-items:center;min-height:52px;padding:0 18px;border:1px solid var(--line);font:600 17px var(--ff);letter-spacing:-.01em;transition:border-color .15s,background .15s}
+.intake .topic label:hover span{border-color:#051A33}
+.intake .topic input:checked+span{border:2px solid #051A33;padding:0 17px;background:#F2F5F9}
+.intake .topic input:focus-visible+span{outline:2px solid var(--blue);outline-offset:2px}
+.direct{margin:18px 0 0;font-size:15px}
+.direct a{color:#051A33;font-weight:700;text-decoration:underline;text-underline-offset:3px}
